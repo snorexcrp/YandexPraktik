@@ -1,6 +1,5 @@
 package com.myblog.dao;
 
-import com.myblog.config.DatabaseConfig;
 import com.myblog.dao.impl.PostDaoImpl;
 import com.myblog.dao.impl.TagDaoImpl;
 import com.myblog.model.Post;

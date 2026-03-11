@@ -1,9 +1,6 @@
 package com.myblog.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myblog.config.DatabaseConfig;
-import com.myblog.config.RootConfig;
-import com.myblog.config.WebConfig;
 import com.myblog.dto.CreateCommentRequest;
 import com.myblog.dto.CreatePostRequest;
 import com.myblog.dto.UpdateCommentRequest;

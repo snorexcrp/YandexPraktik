@@ -1,6 +1,5 @@
 package com.myblog.dao;
 
-import com.myblog.config.DatabaseConfig;
 import com.myblog.dao.impl.CommentDaoImpl;
 import com.myblog.model.Comment;
 import org.junit.jupiter.api.BeforeEach;
