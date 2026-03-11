@@ -1,21 +1,29 @@
 # 🎓 Климова Юлия Васильевна Выполнение задания.
 
-## 📖 Описание
+## 🚀 Запуск проекта
 
-- Добавление лайка к посту (POST /api/posts/{id}/likes).
+### Frontend
 
-- Удаление лайка с поста (DELETE /api/posts/{id}/likes).
+Перейдите в папку `frontend`, установите зависимости и запустите проект:
 
-- Редактирование комментария (PUT /api/posts/{postId}/comments/{id}).
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-- Удаление комментария (DELETE /api/posts/{postId}/comments/{id}).
+### Backend
 
-- Удаление поста с каскадным удалением связанных данных (DELETE /api/posts/{id}).
+Скомпилируйте проект, соберите JAR-файл и запустите приложение:
 
----
+```bash
+mvn clean
+mvn package -Dmaven.test.skip=true
+java -jar target/my-blog-back-app.jar
+```
 
-✅ Все TODO выполнены.
+### Запуск автоматических тестов
 
-✅ Проект компилируется без ошибок.
-
-✅ Все тесты проходят.
+```bash
+mvn test
+```
